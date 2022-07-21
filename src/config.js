@@ -1,10 +1,10 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "",  // your bot token
-    clientID: process.env.CLIENT_ID || "", // your bot client id
+    token: process.env.TOKEN || "NTYyOTU4NDI3NDA0NjMyMDc1.GYU7q9.XKFxgdug1_hsyHaxr2CPmLR39E3OTMRegVcTIg",  // your bot token
+    clientID: process.env.CLIENT_ID || "562958427404632075", // your bot client id
     prefix: process.env.PREFIX || "!", // bot prefix
-    ownerID: process.env.OWNERID || "", //your discord id
+    ownerID: process.env.OWNERID || "106764157105233920", //your discord id
     SpotifyID: process.env.SPOTIFYID || "",
     SpotifySecret: process.env.SPOTIFYSECRET || "",
     mongourl: process.env.MONGO_URI || "", // MongoDb URL
